@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+test_employee = Employee.new(first_name: "test", last_name: "test2", hourly_rate: 15)
+puts Employee.count
